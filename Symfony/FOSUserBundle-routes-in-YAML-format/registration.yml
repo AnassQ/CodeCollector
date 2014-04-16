@@ -1,0 +1,23 @@
+fos_user_registration_register:
+    pattern: /registration
+    defaults: { _controller: FOSUserBundle:Registration:register }
+    requirements:
+        _method: GET|POST
+
+fos_user_registration_check_email:
+    pattern: /registration/check-email
+    defaults: { _controller: FOSUserBundle:Registration:checkEmail }
+    requirements:
+        _method: GET
+
+fos_user_registration_confirm:
+    pattern: /registration/confirm/{token}
+    defaults: { _controller: FOSUserBundle:Registration:confirm }
+    requirements:
+        _method: GET
+
+fos_user_registration_confirmed:
+    pattern: /registration/confirmed
+    defaults: { _controller: FOSUserBundle:Registration:confirmed }
+    requirements:
+        _method: GET
