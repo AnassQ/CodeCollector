@@ -30,8 +30,8 @@
           </ItemTemplate>
       </asp:TemplateField>
 
-      //if you wanna add more links
-      //MoreDetail.aspx is a simple page aspx 
+      <!--if you wanna add more links-->
+      <!--MoreDetail.aspx is a simple page aspx -->
       <asp:HyperLinkField  DataNavigateUrlFields="ProductId" DataNavigateUrlFormatString="MoreDetail.aspx?id={0}" 
                   Text=" + More " >
       </asp:HyperLinkField>
