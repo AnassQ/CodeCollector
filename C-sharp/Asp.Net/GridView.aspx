@@ -21,13 +21,13 @@
       <asp:TemplateField HeaderText="Product Name">
           <ItemTemplate>
               <asp:Label ID="lblProductName" runat="server"  Text='<%#Eval("ProductName")%>'></asp:Label>
-          </ItemTemplate>
+          </ItemTemplate> <!--ProductName its a column in the table Product in DataBase -->
       </asp:TemplateField>
 
       <asp:TemplateField HeaderText="Product Price">
        <ItemTemplate>
               <asp:Label ID="lblProductPrice" runat="server"  Text='<%#Eval("Price")%>'></asp:Label>
-          </ItemTemplate>
+          </ItemTemplate> <!--Price its a column in the table Product in DataBase -->
       </asp:TemplateField>
 
       <!--if you wanna add more links-->
