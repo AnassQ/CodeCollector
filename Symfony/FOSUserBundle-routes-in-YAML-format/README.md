@@ -1,4 +1,4 @@
-#FOSUserBundle-routes-in-YAML-format
+#FOSUserBundle routes in YAML format
 <br>
 Hi, this is a collection of code about FOSUserBundle Routes in YAML Format for the ones who doesn't like work in symfony with the XML files ..
 <br>
