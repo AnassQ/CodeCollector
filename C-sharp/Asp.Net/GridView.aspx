@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListProduits.aspx.cs" Inherits="Asp_DB_Tp1.Produit2.ListProduits" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GridView.aspx.cs" Inherits="CodeCollector_MyProject.GridView" %>
 
 <!DOCTYPE html>
 
