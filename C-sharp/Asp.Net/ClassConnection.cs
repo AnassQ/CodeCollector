@@ -10,7 +10,7 @@ using System.Configuration;
 
 namespace CodeCollector_MyProject
 {
-    static class sqldb
+    static class ClassConnection
     {
     
         public static SqlConnection cn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=DATA_BASE_NAME;Integrated Security=True");
